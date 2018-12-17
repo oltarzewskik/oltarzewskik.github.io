@@ -1,2 +1,37 @@
-body {
-  background: #cccccc; }
+#quick_description {
+  padding: 18% 0; }
+
+#my_name {
+  font-family: 'Major Mono Display', monospace; }
+
+#short_description {
+  font-family: 'B612 Mono', monospace; }
+
+section {
+  height: 150%;
+  width: 100%; }
+
+#section01 a {
+  padding-top: 60px; }
+
+#section01 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box; }
+
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  color: white; }
+
+.demo a:hover {
+  opacity: .5; }
