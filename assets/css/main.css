@@ -1,24 +1,20 @@
 #quick_description {
-    padding: 18% 0;
-}
+  padding: 18% 0; }
 
-#my_name{
-    font-family: 'Major Mono Display', monospace;
-}
+#my_name {
+  font-family: 'Major Mono Display', monospace; }
 
-#short_description{
-    font-family: 'B612 Mono', monospace;
-}
+#short_description {
+  font-family: 'B612 Mono', monospace; }
 
 section {
   height: 150%;
-  width: 100%;
-}
+  width: 100%; }
 
-#section01 a {
-  padding-top: 60px;
-}
-#section01 a span {
+#slider a {
+  padding-top: 60px; }
+
+#slider a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -29,15 +25,13 @@ section {
   border-bottom: 1px solid white;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .demo a {
   position: absolute;
   bottom: 20px;
   left: 50%;
-  color: white;
-}
+  color: white; }
+
 .demo a:hover {
-  opacity: .5;
-}
+  opacity: .5; }
