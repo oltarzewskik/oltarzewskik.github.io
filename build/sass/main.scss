@@ -34,10 +34,29 @@ section {
 
 .demo a {
   position: absolute;
-  bottom: 20px;
+  bottom: 22vh;
   left: 50%;
   color: white;
 }
 .demo a:hover {
   opacity: .5;
+}
+
+.social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1E90FF;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: darken(#00BFFF, 10%);
+      text-decoration: none;
+    }
+}
+
+.icon-github{
+    content: url('/images/GitHub-Mark-64px.png')
 }
