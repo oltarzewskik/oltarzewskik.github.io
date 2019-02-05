@@ -4,17 +4,21 @@
   outline: none;
 }
 
-#social_medias img {
-  transform: translateY(7vh);
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
+#social_medias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 7vh;
 }
 
-.icon {
-  float: left;
-  padding: 5px;
-  transform: translateX(95vh);
+#social_medias img {
+  // display:inline-block;
+  // padding: 5px;
+  // // transform: translateX(95vh);
+  // width: 150px;
+  // height: 150px;
+  // background-color: #cccccc;
+  margin: 5px;
 }
 
 #quick_description {
