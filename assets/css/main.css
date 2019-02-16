@@ -5,28 +5,26 @@
 *:focus {
   outline: none; }
 
-#social_medias {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20vh; }
+#home {
+  height: 79vh;
+  background: gainsboro; }
 
-#social_medias img {
-  margin-right: 2px;
-  margin-left: 2px; }
-
-#quick_description {
+#quick-description {
   text-align: center;
   transform: translateY(35vh); }
 
-#my_name {
+#my-name {
   font-family: 'Major Mono Display', monospace; }
 
-#short_description {
+#short-description {
   font-family: 'B612 Mono', monospace; }
 
 #slider a {
-  padding-top: 60px; }
+  padding-top: 60px;
+  position: absolute;
+  bottom: 22vh;
+  left: 50%;
+  color: white; }
 
 #slider a span {
   position: absolute;
@@ -41,24 +39,22 @@
   transform: rotate(-45deg);
   box-sizing: border-box; }
 
-.demo a {
-  position: absolute;
-  bottom: 22vh;
-  left: 50%;
-  color: white; }
-
-.demo a:hover {
+#slider a:hover {
   opacity: .5; }
 
-.social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1E90FF;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
-  .social-link:hover {
-    background-color: #0099cc;
-    text-decoration: none; }
+#skills {
+  height: 100vh;
+  background: white; }
+
+#footer {
+  background: gainsboro; }
+
+#social-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; }
+
+#social-medias img {
+  margin-right: 2px;
+  margin-left: 2px; }
