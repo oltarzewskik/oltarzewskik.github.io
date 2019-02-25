@@ -9,6 +9,7 @@ verify_ssl = true
 requests = "*"
 staticjinja = "*"
 libsass = "*"
+htmlmin = "*"
 
 [requires]
 python_version = "3.6"
